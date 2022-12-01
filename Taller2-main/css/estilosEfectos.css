@@ -154,6 +154,142 @@
     margin-left: 70px;
 }
 
+.segundo_pop {
+    width: 100%;
+    max-width: 150px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    background: #477c85;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    border-radius: 1%;
+    font-size: 12px;
+    padding: 5px;
+    
+
+}
+
+.segundo_pop p {
+    padding: 0;
+    color: #ffffff;
+}
+
+
+#info2:hover + #pop2{
+    display:block;
+    visibility: visible;
+}
+
+#info10:hover + #Pop10{
+    display:block;
+    visibility: visible;
+}
+
+#info5:hover + #pop5{
+    display:block;
+    visibility: visible;
+}
+
+#info6:hover + #pop6{
+    display:block;
+    visibility: visible;
+}
+
+#info7:hover + #pop7{
+    display:block;
+    visibility: visible;
+}
+
+
+
+#info9:hover + #pop9{
+    display:block;
+    visibility: visible;
+}
+
+.btn-info {
+    width: 2px;
+    height: 2px;
+    font-size: 18px;
+    position: absolute;
+    padding: 20px;
+    background: #22505C;
+    color: #ffffff;
+    border-radius: 50%;
+    line-height: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#pop2 {
+    left: 45%;
+}
+
+#Pop10 {
+    left: 25%;
+    margin-top: 10px;
+}
+
+#pop5 {
+    left: 85%;
+}
+
+
+#pop7 {
+    left: 75%;
+}
+
+
+
+#pop9 {
+    left: 75%;
+}
+
+
+
+
+#info2 {
+    right: 42%;
+    top: 28%;
+}
+
+
+
+
+#info5 {
+    right: 28%;
+    top: 30%;
+}
+
+#info6 {
+    right: 55%;
+    top: 30%;
+}
+
+#info7 {
+    right: 28%;
+    top: 30%;
+}
+
+#info8 {
+    right: 63%;
+    top: 28%;
+}
+
+#info9 {
+    right: 28%;
+    top: 28%;
+}
+
+#info10 {
+    right: 55%;
+    top: 30%;
+}
+
+
 .btn-close-popup {
     width: 20px;
     height: 20px;
@@ -181,6 +317,7 @@
 .columnas {
     display: flex;
     justify-content: center;
+    max-height: 230px;
 }
 
 #columna {
@@ -249,6 +386,7 @@
 
 .ilustraF{
     position: relative;
+    left: 23%;
     height: 100px;
     width: 100px;
     border-radius: 50%;
